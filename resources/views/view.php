@@ -1,0 +1,1 @@
+xin chào bạn <?php echo $ten ?> tới trang view này <?php echo $admin ?>.
