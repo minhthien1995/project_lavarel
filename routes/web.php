@@ -62,3 +62,9 @@ Route::group(['prefix'=>'thucdon'],function(){
 	echo "bun mam";
 });
 });
+Route::get('goi-master',function(){
+	return view('views.master');
+});
+Route::get('goi-layout',function(){
+	return view('views.layout');
+});
